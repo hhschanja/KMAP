@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+	 maxWait = "-1"
+	 maxIdle="10"
+	 maxActive="20"
+	 username="csys"
+	 password="user22"
+	 url = "jdbc:oracle:thin:@localhost:1521:xe"
+	 driverClassName = "oracle.jdbc.driver.OracleDriver"
+	 name="jdbc/kmap"
+	 type="javax.sql.DataSource"
+	 auth="Container"/>
+	 
+			
+
+
+</Context>

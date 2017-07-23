@@ -1,0 +1,206 @@
+@CHARSET "UTF-8";
+/*============hearder start =================================================  */
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+  @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+*{
+font-family: 'Jeju Gothic', sans-serif;
+}
+a{
+   color: black;
+}
+a:HOVER{
+   text-decoration: none;
+   color: black;
+
+}
+nav{
+   margin-top: 30px;
+	margin-bottom: 0px;   
+}
+
+.list {
+	font-family: sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-top: 40px;
+    width : 650px; 
+    padding-left: 0;
+    list-style: none;
+    margin-top: 70px;
+}
+.list22{
+	font-family: sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-top: 50px;
+    width : 650px; 
+    padding-left: 0;
+    list-style: none;
+    margin-top: 70px;
+}
+.list > li {
+	margin-bottom: 0;
+	
+}
+.list a {
+	float: left;
+	margin-left: 40px;
+}
+
+.list22 a {
+	float: left;
+	margin-left: 20px;
+}
+
+.navbar {
+	min-height: 50px;
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+.head {
+	background-image: url("../images/common/reply.jpg");
+	background-repeat: repeat;
+	vertical-align: middle;
+	width: 100%;
+}
+.container{
+	overflow: hidden;
+	width : 90%;
+	margin: 0 auto;
+}
+.head a {
+	color: black;
+}
+
+.container text-center{
+margin-top: 10%;
+
+}
+
+.nav {
+	font-family: sans-serif;
+	font-size: 150%;
+	font-weight: bolder;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.nav > li {
+	vertical-align : middle;
+} 
+.slide-list {
+	font-family: sans-serif;
+	font-size: 0.8em;
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+	padding-left : 5%;
+	padding-top: 10px;
+}
+.menu-sub {
+	width : 400px;
+	display: inline;	
+}
+.menu-sub > ul {
+	float: left;
+	margin-left: 0;	
+	list-style: none;
+}
+.menu-sub li {
+	float: left;
+	margin-left: 20px;
+}
+
+#list1{
+	width:580px;
+	float: left;
+	position: relative;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	font-weight: bolder;
+	margin-bottom: 0px;
+	margin-left : 9%;
+}
+#list2{
+	width: 160px;
+	height: 150px;
+	float: left;
+}
+#list3{
+	width: 25%;
+	float: left;
+	margin-left: 9%;
+	font-size: 0.7em;
+}
+#list3 li {
+	float: right;
+}
+#list3_1{
+	width : 100%;
+	margin-right: 15%;
+}
+#list3_1 > ul{
+	padding-right: 70%;
+
+}
+.slide-menu1 > li {
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+	font-size: 1.5em;
+
+}
+.slide-menu1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.slide-menu1 {
+	text-align :center;
+}
+/* ================================================= */
+/* =================footer========================== */
+footer {
+	width : 100%;
+	height : 170px;
+	background-image: url("../images/common/bg.png");
+	background-repeat: repeat;
+	background-color: #cccccc;
+	color: black;
+}
+
+footer a {
+	color: black;
+}
+.foot_wrap {
+	width: 60%;
+	height : 100%; 
+	margin: 0 auto;
+	padding-top: 1%;
+}
+
+.foot_wrap > div:first-child {
+	float: left;
+}
+
+.foot_company{
+	float : left;
+	margin-left: 30px;
+	font-size: 0.9em;
+}
+.foot_company > p:first-child {
+	font-size: 1.5em;
+}
+.foot_company > p:last-child {
+	font-size: 0.65em;
+}
+.foot_select {
+	padding-top:20px;
+	float: right;
+	
+}
+.navbar2 {
+	min-height: 30px;
+	margin-top: 5%;
+	border-radius: 0;
+}
+/* =================footerfinish======================= */
